@@ -3,8 +3,7 @@
     "version": ">= 12.5.2",
     "appVersionSource": "remote"
   },
-  "build": {
-    
+  "build": { 
     "development": {
       "developmentClient": true,
       "distribution": "internal"
@@ -13,6 +12,9 @@
       "distribution": "internal",
       "android": {
         "buildType": "apk"
+      },
+      "ios": {
+        "simulator": true
       }
     },
     "preview2": {

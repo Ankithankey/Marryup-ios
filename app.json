@@ -3,7 +3,7 @@
     "name": "MarryUp",
     "slug": "Matrimony",
     "platforms": ["ios", "android"],
-    "version": "1.0.0",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/Icon.png",
     "scheme": "myapp",
@@ -21,7 +21,8 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.marryup.app"
+      "bundleIdentifier": "com.marryup.app",
+      "buildNumber": "2"  
     },
     "android": {
       "adaptiveIcon": {
